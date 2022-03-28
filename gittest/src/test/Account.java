@@ -10,4 +10,8 @@ public class Account {
 
 	private String ano;
 	private int balance;
+	
+	public void print() {
+		System.out.println("print");
+	}
 }
