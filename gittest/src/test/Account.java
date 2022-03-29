@@ -12,9 +12,6 @@ import lombok.ToString;
 @ToString
 public class Account {
 
-
-
->>>>>>> branch 'master' of https://github.com/WonniesZeroCoding/exam.git
 	private String ano;
 	private int balance;
 	
@@ -24,17 +21,15 @@ public class Account {
 	}
 	public void withdraw() {
 		System.out.println("withdraw");
-<<<<<<< HEAD
-	}
-=======
 
->>>>>>> branch 'master' of https://github.com/WonniesZeroCoding/exam.git
+	}
+
+
 	public void print() {
 		System.out.println("print");
-<<<<<<< HEAD
-=======
+
 	public void print2() {
 		System.out.println("print2");
->>>>>>> branch 'master' of https://github.com/WonniesZeroCoding/exam.git
+
 	}
 }
