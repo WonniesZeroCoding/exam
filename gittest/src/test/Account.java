@@ -3,23 +3,25 @@ package test;
 import lombok.Getter;
 import lombok.Setter;
 
-
-public class Account {
 @Getter
 @Setter
+@ToString
+public class Account {
+
 
 	private String ano;
 	private int balance;
 	
-<<<<<<< HEAD
+
 	public void deposit() {
 		System.out.println("deposit");
 	}
 	public void withdraw() {
 		System.out.println("withdraw");
-=======
+
 	public void print() {
 		System.out.println("print");
->>>>>>> refs/heads/hotfix
+	public void print2() {
+		System.out.println("print2");
 	}
 }
