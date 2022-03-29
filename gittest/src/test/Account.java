@@ -3,17 +3,15 @@ package test;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-<<<<<<< HEAD
 
 
-=======
->>>>>>> branch 'master' of https://github.com/WonniesZeroCoding/exam.git
+
+
 @Getter
 @Setter
 @ToString
 public class Account {
-<<<<<<< HEAD
-=======
+
 
 
 >>>>>>> branch 'master' of https://github.com/WonniesZeroCoding/exam.git
