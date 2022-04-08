@@ -16,22 +16,23 @@ public class CreateDiamond {
 						System.out.print(" * ");
 					}
 				} 
-			System.out.println();
-
 				for(int k=0; k<7; k++) {
-					if(k<i) {
+					if(k<=i) {
 						System.out.print("   ");
 					} else {
-						System.out.print(" 1 ");
+						System.out.print(" * ");
+					}
+				} for(int l=7; l>0; l--) {
+					if(l<=i) {
+						System.out.print("   ");
+					} else {
+						System.out.print(" * ");
 					}
 				}
-//				for(int l=7)
-				System.out.println();
+	System.out.println();
 			}
 		System.out.println();
 		}
-
-	
 }
 /*
  * for(int i = 0; i < x ; i++){}
