@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ include file="./layout/header.jsp" %>
-<h1>insert</h1>
+<h1>도서 정보 입력</h1>
 <form action="insertProcess.jsp" method="post">
 	<div class="form-group row">
 		<label for="name" class="col-sm-2 col-form-label">Name</label>
